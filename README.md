@@ -8,3 +8,8 @@ WIVET is a benchmarking project that aims to statistically analyze web link extr
 WIVET provides a good sum of input vectors to any extractor and presents the results. In order an input extractor to run meaningfully, it has to provide some kind of session handling, which nearly all of the decent crawlers do. 
 
 Here's the [Cheers List](https://github.com/bedirhan/wivet/wiki/Cheers-List)
+
+Running using Docker
+====================
+
+docker-compose --project-name test --file docker-compose.yml up and you sould have a working WIVET in 127.0.0.1 port 8899
